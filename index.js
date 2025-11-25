@@ -59,7 +59,7 @@ app.get('/divide', (req, res) => {
   res.json({ operation: 'divide', a: nums.a, b: nums.b, result });
 });
 
-// Server initialization - feature-conflict version
+// Server initialization - main version
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
